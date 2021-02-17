@@ -149,11 +149,6 @@ body {
   font-weight: bold;
 }
 
-.form-control.erorr input {
-  visibility: visible;
-  border: 2px solid red;
-}
-
 /* Todo main 2 */
 
 .container .content-main section .main-2 {
@@ -281,6 +276,7 @@ body {
 }
 
 /* !Respomsive */
+
 @media (max-width: 576px) {
   nav {
     display: flex;
@@ -314,6 +310,7 @@ body {
   }
   /* section */
   .container .content-main section .main-1 {
+    margin-left: 180px;
     row-gap: 30px;
   }
   .container .content-main section .main-1 .content-image img {
@@ -331,6 +328,7 @@ body {
     row-gap: 30px;
   }
 }
+
 @media (max-width: 768px) {
   .container .content-main section .main-1 {
     display: flex;
